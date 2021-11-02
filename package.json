@@ -1,0 +1,19 @@
+{
+  "name": "borne_bootsrap",
+  "version": "1.0.0",
+  "description": "Exercice section 3.4 Borne Afpa Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusABWD/Borne_Afpa_Bootstrap.git"
+  },
+  "author": "Boris Andermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngusABWD/Borne_Afpa_Bootstrap/issues"
+  },
+  "homepage": "https://github.com/AngusABWD/Borne_Afpa_Bootstrap#readme"
+}
