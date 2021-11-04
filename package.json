@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AngusABWD/Borne_Afpa_Bootstrap/issues"
   },
-  "homepage": "https://github.com/AngusABWD/Borne_Afpa_Bootstrap#readme"
+  "homepage": "https://github.com/AngusABWD/Borne_Afpa_Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }

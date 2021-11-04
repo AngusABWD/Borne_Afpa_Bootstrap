@@ -1,0 +1,53 @@
+body {
+    font-family: $fontMain;
+    background-color: $light;
+    @media ( width: 1280px ) {
+        overflow: hidden;      
+    }
+}
+a {
+    text-decoration: none;
+}
+.bold {
+    font-weight: bold;
+}
+.font-italic {
+    font-style: italic;
+}
+.card {  
+    &-text {     
+        line-height: 1em;
+    }
+    &-title {
+        font-style: italic;
+    }
+}
+.orientation {
+    background: url(../Image/conseiller-orientation-lyce.jpg) center;
+    background-size: 100%;
+}
+.formation {
+    background: url(../Image/afpaform.jpg) center;
+    background-size: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-lg-3 {
+    padding: 5px;
+}
+.animation {
+    animation: rotation 2s infinite;
+}
+.w-60 {
+    width: 60%;
+}
+//permet de conserver les proportions en dessous de 1460px
+.h-1460 {
+    @media ( max-width: 1460px ) {
+        height: 100%; 
+    }         
+}
